@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Footer = () => (
-     <Footer>
+     <div>
           <p>Created by: Andres Bermeo | 2020</p>
-     </Footer>
+     </div>
 );
 
 export default Footer;

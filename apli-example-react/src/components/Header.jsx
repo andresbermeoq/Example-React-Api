@@ -3,14 +3,14 @@ import {Link} from 'react-router-dom'
 import '../assets/styles/components/Header.css';
 
 const Header = () => (
-     <header className="header">
-          <nav>
-               <ul>
-                    <li>
-                         <Link to="/">Main Page</Link>
+     <header>
+          <nav className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+               <ul className="nav nav-pills justify-content-center">
+                    <li className="nav-item">
+                         <Link className="nav-link" to="/">Main Page</Link>
                     </li>
-                    <li>
-                         <Link to="/country">Country Page</Link>
+                    <li className="nav-item">
+                         <Link className="nav-link" to="/country">Country Page</Link>
                     </li>
                </ul>
           </nav>
