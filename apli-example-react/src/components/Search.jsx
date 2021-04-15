@@ -1,10 +1,9 @@
 import React from 'react';
 
 const Search = () => (
-     <section>
-          <h2>Que desea buscar CoronaVirus?</h2>
-          <input type="text" placeholder="Buscar...." />
-     </section>
+     <div>
+          <input className="form-control form-control-lg" type="text" placeholder="Buscar por Pais...." />
+     </div>
 );
 
 export default Search;

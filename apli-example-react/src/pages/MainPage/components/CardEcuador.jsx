@@ -15,8 +15,6 @@ const CardEcuador = () => {
 
      let date = new Date(casos.Date);
 
-     console.log(casos);
-
      return(
           <div className="card text-center">
                <div className="card-header">
