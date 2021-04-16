@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/assets/styles/components/Header.css","webpack://src/assets/styles/App.css"],"names":[],"mappings":"AAAA,cACK,wBACL,CCFA,KACK,kBACL","file":"main.af6ad6b6.chunk.css","sourcesContent":["header.header {\n     background-color: #e23e57;\n}\n","body {\n     background: #88304e;\n}\n"]}
